@@ -1,5 +1,5 @@
 {
-    "name": "schmunk42/yii2-playground",
+    "name": "schmunk42/yii2-playground-prefab",
     "description": "Yii 2 prefab installation demo of extensions",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","playground","prefab"],
