@@ -1,0 +1,28 @@
+{
+    "name": "schmunk42/yii2-playground",
+    "description": "Yii 2 prefab installation demo of extensions",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","playground","prefab"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Tobias Munk",
+            "email": "schmunk@usrbin.de"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "schmunk42/yii2-sakila-module": "*",
+        "schmunk42/yii2-packaii": "*",
+        "2amigos/yii2-chartjs-widget": "*",
+        "2amigos/yii2-ckeditor-widget": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "schmunk42\\playground\\": ""
+        }
+    },
+    "extra": {
+        "bootstrap": "schmunk42\\playground\\Bootstrap"
+    }
+}
