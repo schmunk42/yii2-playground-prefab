@@ -1,7 +1,7 @@
 Yii2 Playground
 ===============
 
-Prefab installation of Yii 2 extension demos
+Prefab installation of Yii 2 extensions
 
 Installation
 ------------
