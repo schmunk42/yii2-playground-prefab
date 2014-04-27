@@ -1,7 +1,7 @@
 Yii2 Playground
 ===============
 
-Prefab installation demo of extensions
+Prefab installation of Yii 2 extension demos
 
 Installation
 ------------
@@ -26,4 +26,6 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-Once the extension is installed, simply open the module default controller.
+Once the extension is installed, simply open the module default controller, eg. `http://localhost/app/web/index.php?r=playground`
+
+All modules, components, widgets, etc... are registered automatically in the module's `Bootstrap::bootstrap()` method.
