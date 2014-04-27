@@ -10,6 +10,12 @@ class Bootstrap implements BootstrapInterface
     public function bootstrap($app)
     {
         $app->setModule(
+            'playground',
+            [
+                'class' => 'schmunk42\playground\Module',
+            ]
+        );
+        $app->setModule(
             'sakila',
             [
                 'class' => 'schmunk42\sakila\Module',
