@@ -1,6 +1,6 @@
 {
     "name": "schmunk42/yii2-playground-prefab",
-    "description": "Yii 2 prefab installation demo of extensions",
+    "description": "Prefab installation of Yii 2 extensions",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","playground","prefab"],
     "license": "BSD-3-Clause",
