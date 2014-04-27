@@ -28,4 +28,4 @@ Usage
 
 Once the extension is installed, simply open the module default controller, eg. `http://localhost/app/web/index.php?r=playground`
 
-All modules, components, widgets, etc... are registered automatically in the module's `Bootstrap::bootstrap()` method.
+All modules, components, widgets, etc... are registered automatically if needed in the module's `Bootstrap::bootstrap()` method.
